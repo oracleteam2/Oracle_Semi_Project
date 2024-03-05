@@ -14,6 +14,8 @@ public class 백준_1193_분수찾기 {
 			}
 		}
 		System.out.println(num[0][2]);
+		System.out.println(num[0][2]);	
+		System.out.println(num[0][2]);
 
 	}
 
