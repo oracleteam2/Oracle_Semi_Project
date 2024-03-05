@@ -1,0 +1,20 @@
+package 백준_브론즈문제;
+
+import java.util.Arrays;
+
+public class 백준_1193_분수찾기 {
+
+	public static void main(String[] args) {
+		String[][] num = new String[1000][10000];
+		
+		
+		for (int i = 1; i <= num.length-1; i++) {
+			for (int j = 1; j <= num[i].length-1; j++) {
+				num[i-1][j-1] = i + " " + j;
+			}
+		}
+		System.out.println(num[0][2]);
+
+	}
+
+}
